@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Curs</string>
+    <string name="course_title">Пән атауы</string>
+    <string name="classroom_classes">Аудиторлық сабақтар(сағат)</string>
+    <string name="lecture">Дәріс</string>
+    <string name="lab">Зерт.</string>
+    <string name="semester">Семестр</string>
+    <string name="seminar">Семинар</string>
+    <string name="individual_curriculum">Жеке оқу жоспары</string>
+    <string name="student_name">Тілек Самғар</string>
+</resources>

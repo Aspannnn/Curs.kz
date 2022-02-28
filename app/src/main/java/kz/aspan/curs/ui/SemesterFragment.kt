@@ -156,11 +156,18 @@ class SemesterFragment : Fragment(R.layout.fragment_semester) {
         curse.gravity = Gravity.START
         curses.addView(curse)
 
+        curse.afterLayoutConfiguration {
+            title(table, curse)
+        }
 
+
+    }
+
+    private fun title(table: TableLayout, textView: MaterialTextView) {
         val tableRow = TableRow(requireContext())
 
         val layoutParams = TableRow.LayoutParams(
-            TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 1f
+            TableRow.LayoutParams.WRAP_CONTENT, textView.measuredHeight, 1f
         )
 
         val lecture = createTextView(resources.getString(R.string.lecture))

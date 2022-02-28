@@ -2,6 +2,7 @@ package kz.aspan.curs.model
 
 
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 data class Syllabus(
     @SerializedName("AcademicYear")
@@ -16,4 +17,4 @@ data class Syllabus(
     val semesters: List<Semester>,
     @SerializedName("Title")
     val title: String
-)
+) : Serializable

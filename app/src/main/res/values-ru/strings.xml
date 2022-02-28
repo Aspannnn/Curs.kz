@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Curs</string>
+    <string name="course_title">Наименование дисциплины</string>
+    <string name="classroom_classes">Аудиторные занятия в часах</string>
+    <string name="lecture">Лекция</string>
+    <string name="lab">Лаборат.</string>
+    <string name="semester">Семестр</string>
+    <string name="seminar">Семинар</string>
+    <string name="individual_curriculum">Индивидуальный учебный план</string>
+    <string name="student_name">Тилек Самгар</string>
+</resources>

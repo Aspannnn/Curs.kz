@@ -2,6 +2,7 @@ package kz.aspan.curs.model
 
 
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 data class Discipline(
     @SerializedName("DisciplineId")
@@ -10,4 +11,4 @@ data class Discipline(
     val disciplineName: DisciplineName,
     @SerializedName("Lesson")
     val lesson: List<Lesson>
-)
+) : Serializable
